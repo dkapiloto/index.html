@@ -26,43 +26,56 @@ h1 {letter-spacing: 6px}
   
   <div class="w3-padding-32">
     <div class="w3-bar w3-border">
+     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
       <a href="#" class="w3-bar-item w3-button">Home</a>
 
 <div class="w3-dropdown-hover w3-hide-small">
-	<button class="w3-padding-large w3=button" title="More">Conversion <i class= fa fa-caret-down"> </i><button>
-	<div class=w3-dropdown-content w3-bar-block w3-card-4"?
-	<a href="Celsiustofahrenheit.html" class="w3-bar-item w3-button">Celsius to Fahrenheit</a>
-	<a href="Fahrenheittocelsius.html" class="w3-bar-item w3-button">Farenheit to Celsius</a>
-	<a href="Meterstofeet.html" class="w3-bar-item w3-button">Meters to Feet</a>
-	<a href="Feettometers.html" class="w3-bar-item w3-button">Feet to Meters</a>
+   <button class="w3-padding-large w3=button" title="More">Assignment #1 <i class= fa fa-caret-down"> </i>
+	<div class=w3-dropdown-content w3-bar-block w3-card-4">
+	<a href="Celsiustofahrenheit.html" class="w3-bar-item w3-button">Conversion-Celsius to Fahrenheit</a>
+	<a href="Fahrenheittocelsius.html" class="w3-bar-item w3-button">Conversion-Farenheit to Celsius</a>
+	<a href="Meterstofeet.html" class="w3-bar-item w3-button">Conversion-Meters to Feet</a>
+	<a href="Feettometers.html" class="w3-bar-item w3-button">Conversion-Feet to Meters</a>
   
   </div>
 </div>
   
+
+<div class="w3-dropdown-hover w3-hide-small">
+  <button class="w3-padding-large w3=button" title="More">Assignment #2 <i class= fa fa-caret-down"> </i>
+  	<div class=w3-dropdown-content w3-bar-block w3-card-4">
+	<a href="Incometaxcalculator.html" class="w3-bar-item w3-button"> Income Tax Calculator </a>
+ 
+  </div>
+</div>
+
+
+<div class="w3-dropdown-hover w3-hide-small">
+  <button class="w3-padding-large w3=button" title="More">Assignment #3 <i class= fa fa-caret-down"> </i>
+	<div class=w3-dropdown-content w3-bar-block w3-card-4">
+	<a href="Factorialwhileloop.html" class="w3-bar-item w3-button">Factorial - While loop </a>
+	<a href="Sumdowhileloop.html" class="w3-bar-item w3-button">Sum - Do while loop </a>
+	<a href="Average.html" class="w3-bar-item w3-button">Average - (for loop) of First N natural numbers </a>
   
+  </div>
+</div>
 
 
-
-
-
-	<div class=w3-dropdown-hover w3 hide-small">
-<button class="w3-padding-large w3=button" title="More">Income Tax Calculator <i class= fa fa-caret-down"> </i><button>
-           
-
-
-
-
-<a href="#" class="w3-bar-item w3-button w3-hide-small">Factorial</a>
-      <a href="#" class="w3-bar-item w3-button w3-hide-small">Simple Payroll</a>
+<div class="w3-dropdown-hover w3-hide-small">
+  <button class="w3-padding-large w3=button" title="More">Assignment #4 <i class= fa fa-caret-down"> </i>
+	<div class=w3-dropdown-content w3-bar-block w3-card-4">
+	<a href="Factorialwhileloop.html" class="w3-bar-item w3-button">Payroll </a>
       
     </div>
   </div>
+
+
 </header>
 
 <!-- Photo Grid -->
 <div class="w3-row-padding w3-grayscale" style="margin-bottom:128px">
   <div class="w3-half">
-    <img src="/w3images/wedding.jpg" style="width:100%">
+    <img src="wallpaper.jpg" style="width:100%">
     <img src="/w3images/rocks.jpg" style="width:100%">
     <img src="/w3images/falls2.jpg" style="width:100%">
     <img src="/w3images/paris.jpg" style="width:100%">
