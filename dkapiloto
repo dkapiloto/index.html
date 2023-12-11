@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS Template</title>
+<title>Piloto Assignment</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -11,6 +11,11 @@
 body,h1 {font-family: "Raleway", Arial, sans-serif}
 h1 {letter-spacing: 6px}
 .w3-row-padding img {margin-bottom: 12px}
+
+body {background-image: url('wp.jpg');
+    background-repeat: no-repeat;
+    background-attatchment: fixed;
+    background-size: cover;}
 </style>
 </head>
 <body>
@@ -22,70 +27,60 @@ h1 {letter-spacing: 6px}
 <header class="w3-panel w3-center w3-opacity" style="padding:128px 16px">
   <h1 class="w3-xlarge">ATENEO STUDENT</h1>
   <h1>Daxen Piloto</h1>
-  <h2 class="w3-small">Information Technology</h2>
+  <h2 class="w3-small"><bold><text style = "color:Black;">Information Technology</text></bold></h2>
   
-  <div class="w3-padding-32">
-    <div class="w3-bar w3-border">
-     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-      <a href="#" class="w3-bar-item w3-button">Home</a>
-
-<div class="w3-dropdown-hover w3-hide-small">
-   <button class="w3-padding-large w3=button" title="More">Assignment #1 <i class= fa fa-caret-down"> </i>
-	<div class=w3-dropdown-content w3-bar-block w3-card-4">
-	<a href="Celsiustofahrenheit.html" class="w3-bar-item w3-button">Conversion-Celsius to Fahrenheit</a>
-	<a href="Fahrenheittocelsius.html" class="w3-bar-item w3-button">Conversion-Farenheit to Celsius</a>
-	<a href="Meterstofeet.html" class="w3-bar-item w3-button">Conversion-Meters to Feet</a>
-	<a href="Feettometers.html" class="w3-bar-item w3-button">Conversion-Feet to Meters</a>
-  
+  	<div class="w3-dropdown-hover w3 hide-small">
+<button class="w3-padding-large w3=button" title="More">Home
   </div>
-</div>
+  
   
 
 <div class="w3-dropdown-hover w3-hide-small">
-  <button class="w3-padding-large w3=button" title="More">Assignment #2 <i class= fa fa-caret-down"> </i>
-  	<div class=w3-dropdown-content w3-bar-block w3-card-4">
-	<a href="Incometaxcalculator.html" class="w3-bar-item w3-button"> Income Tax Calculator </a>
- 
-  </div>
-</div>
-
-
-<div class="w3-dropdown-hover w3-hide-small">
-  <button class="w3-padding-large w3=button" title="More">Assignment #3 <i class= fa fa-caret-down"> </i>
-	<div class=w3-dropdown-content w3-bar-block w3-card-4">
-	<a href="Factorialwhileloop.html" class="w3-bar-item w3-button">Factorial - While loop </a>
-	<a href="Sumdowhileloop.html" class="w3-bar-item w3-button">Sum - Do while loop </a>
-	<a href="Average.html" class="w3-bar-item w3-button">Average - (for loop) of First N natural numbers </a>
+	<button class="w3-padding-large w3=button" title="More">Conversion <i class= "fa-caret-down"> </i>
+	<div class="w3-dropdown-content w3-bar-block w3-card-4">
+	<a href="https://daxen.w3spaces.com/celsiustofahrenheit.html" class="w3-bar-item w3-button">Celsius to Fahrenheit</a>
+	<a href="https://daxen.w3spaces.com/farenheittocelsius.html"class="w3-bar-item w3-button">Farenheit to Celsius</a>
+	<a href="https://daxen.w3spaces.com/feettometers.html" class="w3-bar-item w3-button">Meters to Feet</a>
+	<a href="https://daxen.w3spaces.com/meterstofeet.html" class="w3-bar-item w3-button">Feet to Meters</a>
   
   </div>
 </div>
+  
+  
 
 
-<div class="w3-dropdown-hover w3-hide-small">
-  <button class="w3-padding-large w3=button" title="More">Assignment #4 <i class= fa fa-caret-down"> </i>
-	<div class=w3-dropdown-content w3-bar-block w3-card-4">
-	<a href="Factorialwhileloop.html" class="w3-bar-item w3-button">Payroll </a>
-      
-    </div>
+
+
+
+	<div class="w3-dropdown-hover w3 hide-small">
+<button class="w3-padding-large w3=button" title="More">Income Tax Calculator
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+    <a href="incometaxcalculator.html"  class="w3-bar-item w3-button">Income Tax Calculator</a>
+
   </div>
+</div>
+        
 
+
+
+	<div class="w3-dropdown-hover w3 hide-small">
+<button class="w3-padding-large w3=button" title="More">Factorial
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+    <a href="factorial.html"  class="w3-bar-item w3-button">Factorial</a>
+
+  </div>
+</div>    
+        
+
+<div class="w3-dropdown-hover w3 hide-small">
+<button class="w3-padding-large w3=button" title="More">Simple Payroll
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+    <a href="payroll.html"  class="w3-bar-item w3-button">Simple Payroll</a>
+
+  </div>
+</div>   
 
 </header>
-
-  
-<!-- End Page Content -->
-</div>
-
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large"> 
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
-
 </body>
 </html>
+
